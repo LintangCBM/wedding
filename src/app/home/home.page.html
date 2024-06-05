@@ -1,20 +1,26 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-header [translucent]="true"> </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <h2 class="invited">You Are Invited To</h2>
+    <h1 class="wedding">Wedding Party</h1>
+    <br />
+    <h5 class="nama">Alan & Lily</h5>
+  </div>
+
+  <div id="container_button">
+    <ion-button
+      fill="outline"
+      class="button_mail"
+      [routerLink]="['/isiundangan']"
+      ><ion-icon name="mail-open" class="icon-mail"></ion-icon>Buka
+      Undangan</ion-button
+    >
   </div>
 </ion-content>
