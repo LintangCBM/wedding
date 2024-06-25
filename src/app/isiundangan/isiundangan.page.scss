@@ -38,3 +38,65 @@
 ion-content {
   --background: url("~src/assets/image/bg3.jpg") no-repeat center / cover;
 }
+
+ion-button {
+  --background: transparent;
+  --color: var(--ion-color-primary);
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+ion-icon {
+  font-size: 1.2em;
+}
+
+.wedding-section, .save-date-section, .rsvp-section, .blessings-section {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wedding-section {
+  background: transparent;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.wedding1 {
+  font-family: "Great Vibes", serif;
+  font-size: 300%;
+  font-weight: 600;
+  font-style: italic;
+  font-variant-ligatures: common-ligatures;
+  font-variant-alternates: swash(1);
+  letter-spacing: -0.05em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.wedding2{
+  font-family: "Ovo", serif;
+  font-weight: 500;
+  font-size: 150%;
+  font-style: italic;
+  font-variant-ligatures: common-ligatures;
+  font-variant-alternates: swash(1);
+  letter-spacing: -0.05em;
+}
+
+.save-date-section, .rsvp-section, .blessings-section {
+  background-image: url('/assets/image/bg4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#countdown {
+  font-size: 1.5em;
+}
+
+ion-item {
+  margin: 16px 0;
+}

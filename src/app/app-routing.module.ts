@@ -22,6 +22,7 @@ const routes: Routes = [
         (m) => m.IsiundanganPageModule
       ),
   },
+
 ];
 
 @NgModule({
@@ -34,4 +35,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
