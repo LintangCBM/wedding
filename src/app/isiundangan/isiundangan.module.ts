@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { IsiundanganPageRoutingModule } from './isiundangan-routing.module';
 
 import { IsiundanganPage } from './isiundangan.page';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
   imports: [
@@ -16,5 +17,6 @@ import { IsiundanganPage } from './isiundangan.page';
     IsiundanganPageRoutingModule,
   ],
   declarations: [IsiundanganPage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class IsiundanganPageModule {}
